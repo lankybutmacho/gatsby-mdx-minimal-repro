@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@mdx-js/mdx": "^0.16.6",
+    "@mdx-js/tag": "^0.16.6",
     "gatsby": "^2.0.0",
+    "gatsby-mdx": "^0.3.2",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
@@ -29,9 +32,6 @@
     "*.{css,scss}": ["prettier --parser css --write", "git add"]
   },
   "devDependencies": {
-    "@mdx-js/mdx": "^0.15.5",
-    "@mdx-js/tag": "^0.15.0",
-    "gatsby-mdx": "^0.2.0",
     "gatsby-source-filesystem": "^2.0.1",
     "husky": "^1.1.0",
     "lint-staged": "^7.3.0",
